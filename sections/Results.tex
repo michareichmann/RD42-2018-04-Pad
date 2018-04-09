@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 0 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Pedestal Distributions at \SI{\sim10}{\mega\hertz\per\centi\meter^2}}
+ 
+	\vspace*{-15pt}\subfigspc{PD0}{PD1}{.5}{scCVD with \SI{6}{\deci\bel} attenuation}{pCVD}\vspace*{-10pt}
+
+	\begin{itemize} \itemfill
+		\item applying the same cuts as for signal
+		\item distribution agrees well with Gaussian even at high rates
+		\item extract noise by taking the sigma of the Gaussian fit
+		\item noise similar for scCVD and pCVD diamond
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Signal Distributions at \SI{\sim10}{\mega\hertz\per\centi\meter^2}}
+ 
+	\vspace*{-15pt}\subfigspc{SD0}{SD1}{.5}{scCVD with \SI{6}{\deci\bel} attenuation}{pCVD}\vspace*{-10pt}
+
+	\begin{itemize} \itemfill
+		\item event based correction by the mean of the noise (baseline offset)
+		\item pCVD signal smaller and smeared by different regions in the diamond
+		\item FWHM/MPV:
+		\begin{itemize}\vspace*{3pt}
+			\item scCVD: \SI{\sim.3}{}
+			\item pCVD: \SI{\sim1}{}
+		\end{itemize}
+
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Signal Maps}
+ 
+	\begin{figure}\vspace*{-15pt}
+		\centering
+		\subfigp{SM0}{.5}{scCVD with \SI{6}{\deci\bel} attenuation}
+		\subfigp{SM1}{.5}{pCVD}
+	\end{figure}
+	
+	\begin{itemize} \itemfill
+		\item flat signal distribution in scCVD
+		\item signal response depending on region in the pCVD
+	\end{itemize}
+ 
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 2.1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Signal Regions}
+ 
+	\vspace*{-15pt}\subfigsp{SigMapB2H}{SigMapB2L}{.35}
+	\vspace*{-15pt}\subfigsp{DistB2H}{DistB2L}{.35}
+	
+	\begin{itemize} \itemfill
+		\item Landau gets narrower for high region (FWHM/MPV: \SI{\sim1.5}{})
+		\item stays similar for low region (FWHM/MPV: \SI{\sim.85}{})
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Rate Studies}
+
+	
+	\vspace*{-15pt}
+	\figp{B2Oct151}{.65} 
+	
+	\begin{itemize}
+		\item systematically checking several up and down scans
+		\item pumping required in the beginning to reach stable pulse height
+		\item random scans to rule out systematic effects of the up/down scan
+	\end{itemize}
+	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Rate Studies in Non-Irradiated scCVD}
+
+	
+	\only<1>{\vspace*{-15pt}\figp{S129Scans1}{.65}}
+	\only<2>{\vspace*{-15pt}\vspace*{.1\textheight}\figp{S129P}{.45}\vspace*{.1\textheight}}
+	
+	\begin{itemize}\itemfill
+		\item lowest rate point scaled to 1
+		\item scCVD diamond shows now rate dependence within the measurement precision
+		\item noise stays the same
+	\end{itemize}
+	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 4.1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{pCVD - Unirradiated Negative}
+ 
+	
+	\vspace*{-20pt}\figp{Unirrad}{.7}\vspace*{-10pt}
+	
+	\begin{itemize} \itemfill
+		\item all unirradiated poly have slight rate dependence with similar behaviour
+		\item first up/down scan usually with lower pulse height \ra pumping
+		\item \ra excluding first first up/down scan
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 4.2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{pCVD - Unirradiated Positive}
+ 
+	
+	\vspace*{-20pt}\figp{UnirradPos}{.7}\vspace*{-10pt}
+	
+	\begin{itemize} \itemfill
+		\item II6-97 does not hold higher voltage
+		\item longer pumping at lower voltage?
+		\item all other diamonds behave very similar for both positive and negative bias
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Rate Studies in Irradiated pCVD}
+
+	\vspace*{-15pt}
+	\figp{B2Scans1}{.65}
+	
+	\begin{itemize}\itemfill
+		\item lowest rate point scaled to 1
+		\item pulse height very stable after irradiation
+		\item noise stays the same
+% 		\item signal degradation due to radiation damage (no absolute calibration)
+	\end{itemize}
+
+\end{frame}

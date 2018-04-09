@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 0 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Waveforms}
+
+	\vspace*{-20pt}
+	\figp{SignalWaveform}{.3}\vspace*{-20pt}
+	\fig{SignalWaveforms30000}{.3}\vspace*{-10pt}
+
+	\begin{itemize}\itemfill
+		\item most frequent peak (\SI{\sim70}{ns}): signal from triggered particle
+		\item other peaks originate from particle of other bunches 
+		\item resolve bunch spacing of PSI beam: \SI{\sim19.8}{ns}
+		\item signals in in pre-signal bunch forbidden \ra noise extraction
+	\end{itemize}
+	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Signal Definition \& Calculation}
+ 
+	\vspace*{-10pt}
+	\figp{intpeaks}{.44}
+	
+	\begin{itemize} \itemfill
+		\item define signal region: \SI{\sim\pm10}{\nano\second} around peak of the triggered signal \ra [\SI{60}{\nano\second}, \SI{80}{\nano\second}]
+		\item signal: finding the peak in the signal region and integrate around it [\SI{-4}{\nano\second}, \SI{6}{\nano\second}]
+		\item pedestal: integrate with same length (\SI{10}{\nano\second}) in the centre of the pre-trigger bunch [\SI{40}{\nano\second}, \SI{60}{\nano\second}]
+% 		\item signal forbidden in pre-trigger bunch due to trigger logic
+% 		\item correct for the DRS4 circular buffer length to get the length of the integral right
+	\end{itemize}
+ 
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Signal To Noise Ratio}
+	
+	\subfigsp{SNR1}{SNR2}{.5}\vspace*{-10pt}
+	
+	\begin{itemize}\itemfill
+		\item optimise SNR by scanning the integral width in both directions
+		\item flat plateau around the the FWHM of the waveform peak
+	\end{itemize}
+ 
+\end{frame}

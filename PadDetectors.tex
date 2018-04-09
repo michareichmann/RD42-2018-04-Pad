@@ -1,0 +1,59 @@
+% BEGIN PREAMBEL
+\documentclass[9pt, xcolor=dvipsnames]{beamer}
+\usepackage[british]{babel}
+\usepackage{multimedia}
+\input{extrapackages}
+\input{newcommands}
+\input{settings}
+
+\title[Pad Detectors]{Summary of the Signal Dependence of Diamond Pad Detectors on Incident Particle Flux}
+\subtitle{RD42 Meeting}
+\titlegraphic{PadFull1}
+\date{9th April 2018}
+% END PREAMBEL
+
+\begin{document}
+
+% ============= TITLE PAGE =============
+\include{TitlePage}
+
+% ============= TABLE OF CONTENTS ======
+\begin{frame}%[allowframebreaks]
+	\frametitle{Table of contents}
+	\tableofcontents[hideallsubsections]   % [pausesections]
+\end{frame}
+
+% ============= 1 =============
+\section{Introduction}
+\include{Motivation}
+
+% ============= 2 =============
+\section{Test Site \& Setup}
+\include{Setup}
+
+% ============= 3 =============
+\section{Leakage Currents}
+\include{Leak}
+
+% ============= 4 =============
+\section{Analysis}
+\include{Analysis}
+
+% ============= 5 =============
+\section{Results}
+\include{Results}
+
+% ============= CONCLUSION =============
+\section{Conclusion}
+\include{Conclusion}
+
+% ============= ACKNOWLEDGEMENTS =============
+\include{Acknowledgements}
+
+\include{DelFin}
+
+% DOCUMENT END
+\end{document}
+
+
+

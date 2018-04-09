@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 0 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Test Site}[plain]
+
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[at=(current page.center)] {
+			\includegraphics[width=1.15\paperwidth]{Cyclo2}};
+	\end{tikzpicture}
+	
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Test Site}
+
+	\begin{itemize}
+		\itemfill
+		\item High Intensity Proton Accelerator (HIPA) at PSI 
+		\item beam line PiM1
+		\item positive pions ($\uppi^+$) with momentum of \SI{260}{\mega\electronvolt\per c} 
+		\item tunable particle fluxes from \orderof{\SI{1}{\kilo\hertz\per cm^2}} to \orderof{\SI{10}{\mega\hertz\per cm^2}}
+	\end{itemize}
+	
+	\begin{figure}
+		\centering
+		\subfiga[.45]{Cyclo1}{.5}
+		\subfiga[.3]{Cyclo3}{.5}
+		\subfiga[.22]{Target}{.25}
+	\end{figure}\vspace*{-10pt}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Setup}
+
+	\figc{TelPad.jpg}{.45}{Modular Beam Telescope}\vspace{-10pt}
+% 	\begin{figure}\vspace*{-10pt}
+% 		\centering
+% 		\animategraphics[loop,width=.5\textwidth]{40}{t}{13}{0}
+% 		\caption{Modular Beam Telescope}
+% 	\end{figure}
+
+	\begin{itemize}\itemfill
+		\item 4 tracking planes \ra trigger (fast-OR) with adjustable effective area
+		\item diamond pad detectors in between tracking planes
+		\item low time precision of fast-OR trigger
+		\item fast scintillator for precise trigger timing \ra \orderof{\SI{1}{\nano\second}}
+	\end{itemize}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Schematic Setup}
+ 
+	\vspace*{-10pt}\fig{TelPadScheme}{.6}\vspace*{-10pt}
+ 
+	\begin{itemize}\itemfill
+		\item PSI DRS4 Evaluation Board as digitiser for the pad waveforms
+		\item Digital Test Board (DTB) and pXar software for the telescope readout
+		\item global trigger: using coincidence of FOR 2 and FOR 3 + scintillator signal
+	\end{itemize}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% FRAME 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Pad Detectors}
+
+	\vspace*{-10pt}\subfigsc{PadBox}{PadFull}{.5}{Detector Box}{Pad Detector with Amplifier}\vspace*{-5pt}
+	
+	\begin{itemize}\itemfill
+		\item building the detector: cleaning, photo-lithography and Cr-Au metallisation
+		\item gluing to PCBs in custom built amplifier boxes
+		\item connecting to low gain, fast amplifier with \orderof{\SI{5}{\nano\second}} rise time
+	\end{itemize}
+	
+\end{frame}
